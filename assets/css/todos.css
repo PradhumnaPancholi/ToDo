@@ -1,3 +1,18 @@
 body{
-    background-color: purple;
+
+}
+
+#container{
+    border: solid 2px black;
+    width: 360px;
+    margin: 0 auto;
+}
+
+h1{
+    background-color: blue;
+}
+
+.done{
+    color: grey;
+    text-decoration: line-through;
 }

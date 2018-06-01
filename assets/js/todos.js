@@ -24,3 +24,8 @@ $("input[type = 'text']").keypress(function(event){
         $("ul").append("<li><span><i class='fas fa-trash-alt'></i></span>" + newToDo + "</li>")
     }
 });
+
+//toggle add input with edit gplf//
+$(".fa-edit").click(function(){
+    $("input[type = 'text']").fadeToggle();
+});
